@@ -1,6 +1,8 @@
 # Simon Game com Arduino e Python
 
-Este projeto implementa o famoso jogo Simon utilizando uma placa Arduino controlada por Python. O objetivo do jogo é que o jogador repita corretamente uma sequência crescente de LEDs acesos, cada um acompanhado por um som específico. O jogo continua até que o jogador erre a sequência, resultando em um "Game Over".
+Este projeto faz parte de uma **iniciativa de extensão** executada na escola HappyCode, onde crianças e adolescentes entre 10 e 16 anos são introduzidos a conceitos de programação, eletrônica e IoT (Internet das Coisas) por meio da criação de um jogo Simon com Arduino.
+
+O objetivo é ensinar de maneira prática como a programação interage com o mundo físico através de componentes eletrônicos, como LEDs, botões e buzzers. Ao final do projeto, os participantes compreendem como o código controla um dispositivo físico, além de aprenderem a lógica por trás do jogo Simon.
 
 ## Funcionamento do Jogo
 
@@ -8,6 +10,13 @@ Este projeto implementa o famoso jogo Simon utilizando uma placa Arduino control
 - O jogador precisa pressionar os botões na mesma ordem em que os LEDs acenderam.
 - Se o jogador acertar, um novo LED será adicionado à sequência, e o jogo continua.
 - Se o jogador errar, o jogo toca um som de "Game Over" e reinicia.
+
+## Objetivos do Projeto de Extensão
+
+- **Introduzir crianças e adolescentes à programação e eletrônica**: Os participantes aprenderão como programar um Arduino para controlar LEDs e botões, além de instalar e configurar o código dentro de um componente físico.
+- **Ensinar conceitos de IoT**: Demonstrar a interação entre software e hardware por meio da criação de um sistema eletrônico simples.
+- **Promover o aprendizado prático**: A oficina utiliza o método LET (Lean Education Technology), que foca em uma abordagem prática e iterativa para o ensino, garantindo que os alunos estejam diretamente envolvidos na montagem e programação do jogo.
+- **Estimular o raciocínio lógico e a criatividade**: Ao aprender a lógica do jogo Simon e como programar o Arduino, os participantes desenvolvem habilidades de resolução de problemas e criatividade.
 
 ## Requisitos de Hardware
 
@@ -17,7 +26,7 @@ Este projeto implementa o famoso jogo Simon utilizando uma placa Arduino control
 - **4 Resistores** de 220Ω (para os LEDs)
 - **Buzzer Piezo**
 - **Conexões jumper e uma protoboard**
-  
+
 ### Pinagem do Arduino:
 
 | Pino do Arduino | Componente     |
@@ -87,3 +96,12 @@ Os arquivos de som correspondentes a cada LED devem estar na pasta `sons/` e nom
 - **C4.wav** (para o LED Verde)
 - **E4.wav** (para o LED Azul)
 - **G5.wav** (para o LED Amarelo)
+
+## Projeto de Extensão - Detalhes
+
+Este projeto é parte do programa de extensão na **escola HappyCode**, uma escola focada em ensinar programação e robótica para crianças e adolescentes. Durante o curso do projeto, os participantes:
+
+1. **Montam o hardware**: Os alunos conectam LEDs, botões e resistores em um Arduino para montar a estrutura física do jogo.
+2. **Programam o Arduino**: Usam um código já preparado para controlar o jogo Simon, mas antes entendem como o código funciona.
+3. **Instalam o código no Arduino**: Os alunos aprendem a carregar o código no Arduino e testar o funcionamento do jogo.
+4. **Experimentam o IoT na prática**: Com a interação entre o código e o hardware, os alunos ganham uma compreensão prática do que é a Internet das Coisas.
